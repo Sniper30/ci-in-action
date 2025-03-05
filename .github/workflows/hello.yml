@@ -1,9 +1,9 @@
 name: mi primer github action
 
 on: 
- push:
-  branches: 
-   - "main"
+  push:
+    branches: 
+    - "main"
 
 jobs:
   hello-world:
@@ -12,3 +12,5 @@ jobs:
       - name: say hello
         run: |
           echo "hello world"
+      - name: print data
+        run: date
