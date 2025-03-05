@@ -1,0 +1,13 @@
+name: mi primer github action
+
+on: 
+    push:
+        branches: 
+            - "main"
+
+jobs:
+    hello-world:
+        runs-on: ubuntu-18.04
+        steps:
+           - name: say hello
+             run: echo "hello world"
