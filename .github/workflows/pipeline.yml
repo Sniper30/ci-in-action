@@ -17,6 +17,7 @@ jobs:
           node-version: 22
       - name: instalar dependencias
         run: npm install
+      - run: npm run vitest
 
 
   
