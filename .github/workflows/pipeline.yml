@@ -20,7 +20,7 @@ jobs:
       - name: run eslint
         run: npm run lint
       - name: run test
-        run: npm run vitest
+        run: npm run test
       
 
 
